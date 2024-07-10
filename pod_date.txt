@@ -1,0 +1,80 @@
+IP Address	Namespace	Name	Ready	Status
+None	kube-system	helm-install-traefik-mj877	0/1	Succeeded
+
+Events for Pod: 
+None
+--------------------
+IP Address	Namespace	Name	Ready	Status
+None	kube-system	helm-install-traefik-crd-8z5mx	0/1	Succeeded
+
+Events for Pod: 
+None
+--------------------
+IP Address	Namespace	Name	Ready	Status
+None	elastic-system	c0118050-logstash-ls-0	0/1	Pending
+
+Events for Pod: 
+2024-06-12 09:25:53+00:00	Warning	MountVolume.MountDevice failed for volume "pvc-191d51b0-495a-4df7-b0e7-b72fa7b91794" : rpc error: code = Internal desc = failed to get volume pvc-191d51b0-495a-4df7-b0e7-b72fa7b91794 for staging volume: Get "http://longhorn-backend:9500/v1/volumes/pvc-191d51b0-495a-4df7-b0e7-b72fa7b91794": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+
+--------------------
+IP Address	Namespace	Name	Ready	Status
+10.42.2.126	c0a21151-test3	pod-pvc-test	0/1	Pending
+
+Events for Pod: 
+2024-06-19 05:56:19+00:00	Warning	Failed to apply default image tag "nginx-:stable-alpine": couldn't parse image name "nginx-:stable-alpine": invalid reference format
+
+--------------------
+IP Address	Namespace	Name	Ready	Status
+10.42.0.158	elastic-system	fb-filebeat-r65mw	0/1	Running
+
+Events for Pod: 
+2024-06-19 05:58:03+00:00	Warning	(combined from similar events): Readiness probe errored: rpc error: code = Unknown desc = failed to exec in container: failed to start exec "84c59064e8b98d411409fa6625e6d32ff6bbae2c5a0696d877da84c2f56b7b7f": OCI runtime exec failed: exec failed: cannot exec in a stopped container: unknown
+
+--------------------
+IP Address	Namespace	Name	Ready	Status
+10.42.2.128	longhorn-system	engine-image-ei-5cefaf2b-4cnxq	0/1	Running
+
+Events for Pod: 
+2024-06-29 13:31:31+00:00	Warning	(combined from similar events): Readiness probe errored: rpc error: code = Unknown desc = failed to exec in container: failed to start exec "04bad9626a7a115070fad44c0b38d133b812fc9c1f4fee5a6d33535ce1493513": OCI runtime exec failed: exec failed: cannot exec in a stopped container: unknown
+
+--------------------
+IP Address	Namespace	Name	Ready	Status
+None	c0a21151-test4	mongodb-576fdcf9db-q47bp	0/0	Pending
+
+Events for Pod: 
+None	Warning	0/4 nodes are available: persistentvolumeclaim "c0a22059" not found. preemption: 0/4 nodes are available: 4 Preemption is not helpful for scheduling.
+
+--------------------
+IP Address	Namespace	Name	Ready	Status
+10.42.2.164	ingress-nginx	ingress-nginx-admission-create-cwwl7	0/1	Succeeded
+
+Events for Pod: 
+None
+--------------------
+IP Address	Namespace	Name	Ready	Status
+10.42.2.165	ingress-nginx	ingress-nginx-admission-patch-9chl4	0/1	Succeeded
+
+Events for Pod: 
+None
+--------------------
+IP Address	Namespace	Name	Ready	Status
+None	c0a21151-test5	c0a22115f4-ansible-deploy-6fb655f75b-w4zv2	0/0	Pending
+
+Events for Pod: 
+None	Warning	0/4 nodes are available: 4 node(s) didn't match Pod's node affinity/selector. preemption: 0/4 nodes are available: 4 Preemption is not helpful for scheduling.
+
+--------------------
+IP Address	Namespace	Name	Ready	Status
+10.42.2.151	c0a21151-test1	nginx-proxy-deployment-6b85fdbc59-9ck4f	0/1	Running
+
+Events for Pod: 
+2024-07-02 08:39:56+00:00	Warning	Back-off restarting failed container nginx-proxy in pod nginx-proxy-deployment-6b85fdbc59-9ck4f_c0a21151-test1(fd959b7d-05b5-44bf-a4de-a364697cd376)
+
+--------------------
+IP Address	Namespace	Name	Ready	Status
+10.42.0.155	c0a21151-test2	redmine-8495664d9b-m8twz	0/1	Running
+
+Events for Pod: 
+2024-06-19 05:55:57+00:00	Warning	Back-off restarting failed container redmine in pod redmine-8495664d9b-m8twz_c0a21151-test2(89f744e1-c0de-473c-aa84-6eb00b8e3ccc)
+
+--------------------

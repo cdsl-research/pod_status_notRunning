@@ -33,7 +33,7 @@ if __name__ == "__main__":
     v1 = client.CoreV1Api()
     #print("Listing pods with their IPs:")
 
-    # 全ての名前空間のPodのリストを取得
+    # 全てのnamespaceのPodのリストを取得
     pod_list = v1.list_pod_for_all_namespaces(watch=False)
     #print(pod_list)
 

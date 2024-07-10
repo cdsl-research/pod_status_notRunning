@@ -39,7 +39,7 @@ if __name__ == "__main__":
     #print(pod_list)
 
     # Podの要素の抽出，表示，ファイルに書き込み
-    file_path = "pod-date.txt"
+    file_path = "pod-data.txt"
     with open(file_path, "w") as file:
         # Podの数，繰り返し
         for i in pod_list.items:

@@ -1,6 +1,5 @@
 from kubernetes import client, config
 import subprocess
-import re
 
 
 

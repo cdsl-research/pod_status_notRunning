@@ -20,3 +20,17 @@ Podごとに kubectl get pod でターミナル表示される情報を取得し
 ＊ "# ターミナルに出力" の下にあるprint文のコメントアウトを外すと，ターミナルにテキストファイルに書き込んだ内容が出力されます．
 
 ＊ kubectl describe pod の内容が無い場合，"None" と書き込まれます．
+
+## 実行結果
+```
+--------------------
+IP Address   Namespace   Name    Ready   Status
+10.42.0.247     longhorn-system longhorn-csi-plugin-khcqd       1/3     Running
+--------------------
+IP Address   Namespace   Name    Ready   Status
+10.42.0.252     longhorn-system csi-snapshotter-58bf69fbd5-tcnpd        0/1     Running
+--------------------
+IP Address   Namespace   Name    Ready   Status
+10.42.1.153     longhorn-system longhorn-csi-plugin-s8kmq       1/3     Running
+--------------------
+```
